@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Chile today's hot trends",
+  "version": "0.0.1",
+
+  "default_locale": "en",
+  "description": "A simple chrome extension to see the latest trend of Chile's searches on google",
+  "author": "Mathías Donoso",
+
+  "background": {
+    "persistent": false
+  },
+}
