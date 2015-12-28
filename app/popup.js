@@ -5,9 +5,10 @@ $(document).ready(function() {
         $.each(data, function(key, val) {
             if (key == 38) {
                 $.each(val, function(rank, text) {
-                    hotTrends.push(text);
                     $("#trends").append('<li>' + text + '</li>');  
                 });    
+
+                return;
             };
         });
 
