@@ -1,0 +1,26 @@
+{
+  "name": "chile-hot-trends",
+  "homepage": "https://github.com/mathiasd88/chile-hot-trends-extension",
+  "authors": [
+    "mathias <mathiasd88@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "chile",
+    "hot",
+    "trends"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

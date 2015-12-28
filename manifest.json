@@ -3,11 +3,32 @@
   "name": "Chile today's hot trends",
   "version": "0.0.1",
 
-  "default_locale": "en",
   "description": "A simple chrome extension to see the latest trend of Chile's searches on google",
   "author": "Mathías Donoso",
 
-  "background": {
-    "persistent": false
+  // "background": {
+  //   "persistent": false
+  // },
+
+  "browser_action": {
+    "default_icon": "assets/images/icon.png",
+    "default_popup": "app/views/popup.html",
+    "default_title": "Chile's hot trends!"
   },
+
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "bower_components/jquery/dist/jquery.min.js"
+      ]
+    }
+  ]
 }
